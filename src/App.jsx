@@ -43,7 +43,7 @@ foto: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/
         <h1 className={styles.titulo}>Pokedex</h1>
         <div className={styles.listaCards}>
           {pokemons.map((pokemon) => (
-            <CardPokemon key={pokemon.id} nome={pokemon.nome} tipo={pokemon.tipo} poder={pokemon.poder} foto={pokemon.foto} />
+            <CardPokemon key={pokemon.id} numero={pokemon.id} nome={pokemon.nome} tipo={pokemon.tipo} poder={pokemon.poder} foto={pokemon.foto} />
           ))}
         </div>
       </div>
