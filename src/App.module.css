@@ -1,0 +1,21 @@
+.container {
+  padding: 30px;
+  font-family: 'Arial', sans-serif;
+  background-color: #ffdaea;
+  min-height: 100vh;
+}
+
+.titulo {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #ff008c;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.listaCards {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
